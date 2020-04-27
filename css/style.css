@@ -1,0 +1,32 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	}
+
+body {
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background: url ('../img/wow.png') bottom center no-repeat;
+	font-size: 1em;
+}
+
+.centered {
+	padding: 0 3.125em;
+	font-family: 'Montserrat', sans-serif;
+	background: #f16059;
+}
+
+h1 {
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 4em;
+	}
+}
